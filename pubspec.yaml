@@ -1,0 +1,93 @@
+name: facelift_constructions
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 3.1.1+5
+
+environment:
+  sdk: ">=2.16.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  intl: ^0.18.1
+  carousel_slider: ^4.0.0
+  firebase_core: ^2.4.1
+  firebase_auth: ^4.2.5
+  flutter_secure_storage: ^7.0.1
+  otp_text_field: ^1.1.1
+  cloud_firestore: ^4.3.1
+  image_picker: ^0.8.4+10
+  firebase_storage: ^11.0.10
+  flutter_animated_dialog: ^2.0.1
+  flutter_launcher_icons: ^0.11.0
+  url_launcher: ^6.1.7
+  firebase_analytics: ^10.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/app_icon.png"
+  adaptive_icon_background: "#000000"
+  adaptive_icon_foreground: "assets/images/1024.png"
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/modals/
+    - assets/sample_plans/
+    - assets/sample_labor/
+    - assets/sample_bills/
+    - assets/sample_progress/
+    - assets/room/
+    - assets/labor/
+    - assets/tools/
+    - assets/luxury/
+    - assets/green_spaces/
+    - assets/finishing/
+    - assets/finishing/Kitchen/brands/
+    - assets/finishing/Kitchen/latest/
+    - assets/finishing/Kitchen/types/
+    - assets/finishing/bathroom/brands/
+    - assets/finishing/bathroom/color/
+    - assets/finishing/bathroom/special/
+    - assets/finishing/Lighting/brands/
+    - assets/finishing/Lighting/chandeliers/
+    - assets/finishing/Lighting/pandent_lamp/
+    - assets/finishing/Lighting/technologies/
+    - assets/finishing/Accessories/cube_shelvings/
+    - assets/finishing/Accessories/door_frames/
+    - assets/finishing/Accessories/doors/
+    - assets/finishing/Accessories/latest/
+    - assets/finishing/Accessories/lights/
+    - assets/finishing/Paints/div/
+    - assets/finishing/Paints/bands/
+    - assets/finishing/Flooring/marble_granite/
+    - assets/finishing/Flooring/marble_italian/
+    - assets/finishing/Flooring/marble_onyx/
+    - assets/finishing/Flooring/tile_brand/
+    - assets/finishing/Flooring/tiles_size/
+    - assets/raw/Aggregate/
+    - assets/raw/Bricks/
+    - assets/raw/Cement/
+    - assets/raw/Sand/
+    - assets/raw/Steel_Bars/
+    - assets/room/bathroom_photos/
+    - assets/room/bedroom_photos/
+    - assets/room/dressing_photos/
+    - assets/room/kitchen_photos/
+    - assets/room/living_photos/
+
